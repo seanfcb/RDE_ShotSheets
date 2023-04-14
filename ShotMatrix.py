@@ -7,10 +7,10 @@ import os
 
 
 
+################################################################################################
+#                                Taking in previous shot sheet data                            #
+################################################################################################
 
-# with open('ShotMatrix.csv', 'a') as ShotMatrix:
-
-##Taking in previous shot sheet data
 ShotSheet = read_csv("ShotMatrix.csv")
 
 ShotNumber  = ShotSheet['ShotNumber'].tolist()
@@ -32,7 +32,9 @@ H 			= ShotSheet['h'].tolist()
 Outcome 	= ShotSheet['Outcome'].tolist()
 Comments 	= ShotSheet['Comments'].tolist()
 
-##Taking previous data as default values
+################################################################################################
+#                              Taking previous data as default values                          #
+################################################################################################
 
 shotnum  = ShotNumber[len(ShotNumber)-1] + 1 #Adding one for new shot
 
@@ -49,8 +51,9 @@ engine   = [Engine[len(Engine)-1]]
 finj     = [Finj[len(Finj)-1]]
 h        = [H[len(H)-1]]
 
-
-###Taking inputs for new shot
+################################################################################################
+#                                    Taking inputs for new shot                                #
+################################################################################################
 
 
 print("If the value remains unchanged from the previous value, leave empty")
@@ -127,6 +130,10 @@ now = datetime.now()
 date = now.strftime("%m/%d/%Y")
 time = now.strftime("%H:%M:%S")
 
+
+################################################################################################
+#                           Saving new shot data to shot sheet matrix 						   #
+################################################################################################
 
 data = {'ShotNumber'	: [shotnum],
 		'Date'			: [date],
