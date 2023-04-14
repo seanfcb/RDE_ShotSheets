@@ -125,7 +125,10 @@ outcome = input()
 print("Extra comments and notes: ")
 comments = input()
 
-##pulling date and time variables
+################################################################################################
+#                                   Pulling date and time                                      #
+################################################################################################
+
 now = datetime.now()
 date = now.strftime("%m/%d/%Y")
 time = now.strftime("%H:%M:%S")
