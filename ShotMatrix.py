@@ -1,4 +1,5 @@
 from pandas import *
+from datetime import datetime
 import numpy as np
 import csv
 import sys
@@ -13,6 +14,8 @@ import os
 ShotSheet = read_csv("ShotMatrix.csv")
 
 ShotNumber  = ShotSheet['ShotNumber'].tolist()
+Date        = ShotSheet['Date'].tolist()
+Time		= ShotSheet['Time'].tolist()
 Fuel        = ShotSheet['Fuel'].tolist()
 P0f 		= ShotSheet['P0f'].tolist()
 P0ox 		= ShotSheet['P0ox'].tolist()
@@ -32,6 +35,7 @@ Comments 	= ShotSheet['Comments'].tolist()
 ##Taking previous data as default values
 
 shotnum  = ShotNumber[len(ShotNumber)-1] + 1 #Adding one for new shot
+
 fuel     = [Fuel[len(Fuel)-1]]
 p0f      = [P0f[len(P0f)-1]]
 p0ox	 = [P0ox[len(P0ox)-1]]
@@ -118,8 +122,15 @@ outcome = input()
 print("Extra comments and notes: ")
 comments = input()
 
+##pulling date and time variables
+now = datetime.now()
+date = now.strftime("%m/%d/%Y")
+time = now.strftime("%H:%M:%S")
+
 
 data = {'ShotNumber'	: [shotnum],
+		'Date'			: [date],
+		'Time'			: [time],
 		'Fuel'			: [fuel],
 		'P0f'			: [p0f],
 		'P0ox'			: [p0ox],
