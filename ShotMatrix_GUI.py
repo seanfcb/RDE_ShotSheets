@@ -120,6 +120,12 @@ def initialize_gui():
     ShotNumberLabel.grid(row=0, column=0)
     tk.Label(window, text=ShotNumber).grid(row=0, column=1)
     
+    image = Image.open("ConU_Logo.png")
+    photo = ImageTk.PhotoImage(image)
+    label = tk.Label(window, image=photo)
+    label.image = photo  # Keep a reference!
+    label.grid(row=17, column=1, sticky='E')  # Adjust row and column as needed
+
     # Run the main event loop
     window.protocol("WM_DELETE_WINDOW", on_closing)
     window.mainloop()
