@@ -20,3 +20,10 @@ ShotNumber,Date,Time,Tamb,Fuel,Oxidizer,P0f,P0ox,mdot_target,FuelSet,OxSet,mdotf
 123,2023-05-25,14:14:44,300,C2H4,O2,500,700,200,No colour 8,Blue 7,46,155,201,LE,Radial Discrete,"""Rook"" plug injector",5mm,No information entered by user,No information entered by user,,
 124,2023-05-25,14:15:38,300,C2H4,O2,500,700,200,No colour 8,Blue 7,46,155,201,LE,Radial Discrete,"""Rook"" plug injector",5mm,No information entered by user,Chamber burnout. Oxygen flex destroyed. Likely occurred during a previous test.,,
 125,2023-07-26,15:10:42,300,C2H4,O2,500,700,200,No colour 8,Blue 7,46,155,201.0,LE,Radial Discrete,"""Rook"" plug injector",5mm,Unknown. High Speed camera error.,Accidental demonstration of thrust. Broken welds on sandworm. Likely engine hard start.
+126,2023-08-04,12:33:43,300,C2H4,O2,500,800,200,No colour 8,Blue 6,46,155,201.0,LE,Radial Discrete,"""Rook"" plug injector",5mm,2 waves,None
+127,2023-08-04,12:37:40,300,C2H4,O2,500,800,200,No colour 8,Blue 6,46,155,201.0,LE,Radial Discrete,"""Rook"" plug injector",5mm,No information entered by user,Window was very blurry. Need to clean
+128,2023-08-04,12:52:17,300,C2H4,O2,500,800,200,No colour 8,Blue 6,46,155,201.0,LE,Radial Discrete,"""Rook"" plug injector",5mm,Unknown,All black. Change light settings
+129,2023-08-04,14:19:59,300,C2H4,O2,500,800,200,No colour 8,Blue 6,46,155,201.0,LE,Radial Discrete,"""Rook"" plug injector",5mm,No information entered by user,No information entered by user
+130,2023-08-04,14:20:14,300,C2H4,O2,500,800,200,No colour 8,Blue 6,46,155,201.0,LE,Radial Discrete,"""Rook"" plug injector",5mm,No information entered by user,No information entered by user
+131,2023-08-04,14:21:34,300,C2H4,O2,500,800,200,No colour 8,Blue 6,46,155,201.0,LE,Radial Discrete,"""Rook"" plug injector",5mm,"2 wave, 2 clapping pairs",No information entered by user
+132,2023-08-04,15:47:05,300,C2H4,O2,800,800,300,red 2,Blue 6,46,155,201.0,LE,Radial Discrete,"""Rook"" plug injector",5mm,N/A,Sandworm go boom. Paul Atreides inconsolable.
