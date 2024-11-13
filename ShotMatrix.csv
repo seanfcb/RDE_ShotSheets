@@ -1,22 +1,34 @@
-ShotNumber,Date,Time,Tamb,Fuel,Oxidizer,P0f,P0ox,mdot_target,FuelSet,OxSet,mdotf,mdoto,mdott,igniter,engine,finj,h,Outcome,Comments,,
-105,,,300,C2H4,O2,800,800,250,No colour 0,Blue 5,35,194,229,Nonel,Radial Discrete,"""Rook"" plug injector",5mm,No visible detonation,Camera underexposed,,
-106,,,300,C2H4,O2,800,800,250,No colour 0,Blue 5,35,194,229,Nonel,Radial Discrete,"""Rook"" plug injector",5mm,Counter-rotating,,,
-107,,,300,C2H4,O2,500,800,200,No colour 8,Blue 4,46,180,226,Nonel,Radial Discrete,"""Rook"" plug injector",5mm,No wave mode observed,,,
-108,,,300,C2H4,O2,500,800,200,No colour 6,Blue 4,42,180,222,Nonel,Radial Discrete,"""Rook"" plug injector",5mm,2 counter-rotating pairs,,,
-109,,,300,C2H4,O2,500,800,200,No colour 4,Blue 4,40,180,220,Nonel,Radial Discrete,"""Rook"" plug injector",5mm,2 counter-rotating pairs,,,
-110,,,300,C2H4,O2,500,800,200,No colour 2,Blue 4,36,180,216,Nonel,Radial Discrete,"""Rook"" plug injector",5mm,2 counter-rotating pairs,,,
-111,,,300,C2H4,O2,400,800,100,No colour 6,Red 0,40,155,195,Nonel,Radial Discrete,"""Rook"" plug injector",5mm,2 counter-rotating pairs,,,
-112,,,300,C2H4,O2,400,800,100,No colour 4,Red 0,38,155,193,Nonel,Radial Discrete,"""Rook"" plug injector",5mm,3 waves,,,
-113,,,300,C2H4,O2,400,800,100,No colour 2,Red 0,34,155,189,Nonel,Radial Discrete,"""Rook"" plug injector",5mm,3 waves,,,
-114,,,300,C2H4,O2,300,400,75,No colour 1,Red 0,16,58,74,Nonel,Radial Discrete,"""Rook"" plug injector",5mm,No data recorded,Trigger error,,
-115,,,300,C2H4,O2,300,400,75,No colour 1,Red 0,16,58,74,Nonel,Radial Discrete,"""Rook"" plug injector",5mm,2 counter-rotating pairs,,,
-116,,,300,C2H4,O2,300,400,75,No colour 2,Red 0,19,58,77,Nonel,Radial Discrete,"""Rook"" plug injector",5mm,2 counter-rotating pairs,,,
-117,,,300,C2H4,O2,300,400,75,No colour 0.5,Red 0,14,58,72,Nonel,Radial Discrete,"""Rook"" plug injector",5mm,2 counter-rotating pairs,,,
-118,,,300,C2H4,O2,250,300,60,No colour 0.5,Red 0,11,46,57,Nonel,Radial Discrete,"""Rook"" plug injector",5mm,2 counter-rotating pairs,,,
-119,,,300,C2H4,O2,250,300,60,No colour 1,Red 0,15,46,61,Nonel,Radial Discrete,"""Rook"" plug injector",5mm,2 counter-rotating pairs,,,
-120,,,300,C2H4,O2,500,700,200,No colour 8,Blue 7,46,155,201,LE,Radial Discrete,"""Rook"" plug injector",5mm,4 counter-rotating pairs,,,
-121,,,300,C2H4,O2,500,700,200,No colour 8,Blue 7,46,155,201,LE,Radial Discrete,"""Rook"" plug injector",5mm,No data recorded,Trigger error,,
-122,,,300,C2H4,O2,500,700,200,No colour 8,Blue 7,46,155,201,LE,Radial Discrete,"""Rook"" plug injector",5mm,3 counter-rotating pairs,,,
-123,2023-05-25,14:14:44,300,C2H4,O2,500,700,200,No colour 8,Blue 7,46,155,201,LE,Radial Discrete,"""Rook"" plug injector",5mm,No information entered by user,No information entered by user,,
-124,2023-05-25,14:15:38,300,C2H4,O2,500,700,200,No colour 8,Blue 7,46,155,201,LE,Radial Discrete,"""Rook"" plug injector",5mm,No information entered by user,Chamber burnout. Oxygen flex destroyed. Likely occurred during a previous test.,,
-125,2023-07-26,15:10:42,300,C2H4,O2,500,700,200,No colour 8,Blue 7,46,155,201.0,LE,Radial Discrete,"""Rook"" plug injector",5mm,Unknown. High Speed camera error.,Accidental demonstration of thrust. Broken welds on sandworm. Likely engine hard start.
+ShotNumber,Date,Time,Tamb,Fuel,Oxidizer,P0f,P0ox,mdot_target,FuelSet,OxSet,mdotf,mdoto,mdott,igniter,engine,finj,h,Outcome,Comments
+105,,,300,C2H4,O2,800,800,250,No colour 0,Blue 5,35,194,229,Nonel,Radial Discrete,"""Rook"" plug injector",5mm,No visible detonation,Camera underexposed
+106,,,300,C2H4,O2,800,800,250,No colour 0,Blue 5,35,194,229,Nonel,Radial Discrete,"""Rook"" plug injector",5mm,Counter-rotating,
+107,,,300,C2H4,O2,500,800,200,No colour 8,Blue 4,46,180,226,Nonel,Radial Discrete,"""Rook"" plug injector",5mm,No wave mode observed,
+108,,,300,C2H4,O2,500,800,200,No colour 6,Blue 4,42,180,222,Nonel,Radial Discrete,"""Rook"" plug injector",5mm,2 counter-rotating pairs,
+109,,,300,C2H4,O2,500,800,200,No colour 4,Blue 4,40,180,220,Nonel,Radial Discrete,"""Rook"" plug injector",5mm,2 counter-rotating pairs,
+110,,,300,C2H4,O2,500,800,200,No colour 2,Blue 4,36,180,216,Nonel,Radial Discrete,"""Rook"" plug injector",5mm,2 counter-rotating pairs,
+111,,,300,C2H4,O2,400,800,100,No colour 6,Red 0,40,155,195,Nonel,Radial Discrete,"""Rook"" plug injector",5mm,2 counter-rotating pairs,
+112,,,300,C2H4,O2,400,800,100,No colour 4,Red 0,38,155,193,Nonel,Radial Discrete,"""Rook"" plug injector",5mm,3 waves,
+113,,,300,C2H4,O2,400,800,100,No colour 2,Red 0,34,155,189,Nonel,Radial Discrete,"""Rook"" plug injector",5mm,3 waves,
+114,,,300,C2H4,O2,300,400,75,No colour 1,Red 0,16,58,74,Nonel,Radial Discrete,"""Rook"" plug injector",5mm,No data recorded,Trigger error
+115,,,300,C2H4,O2,300,400,75,No colour 1,Red 0,16,58,74,Nonel,Radial Discrete,"""Rook"" plug injector",5mm,2 counter-rotating pairs,
+116,,,300,C2H4,O2,300,400,75,No colour 2,Red 0,19,58,77,Nonel,Radial Discrete,"""Rook"" plug injector",5mm,2 counter-rotating pairs,
+117,,,300,C2H4,O2,300,400,75,No colour 0.5,Red 0,14,58,72,Nonel,Radial Discrete,"""Rook"" plug injector",5mm,2 counter-rotating pairs,
+118,,,300,C2H4,O2,250,300,60,No colour 0.5,Red 0,11,46,57,Nonel,Radial Discrete,"""Rook"" plug injector",5mm,2 counter-rotating pairs,
+119,,,300,C2H4,O2,250,300,60,No colour 1,Red 0,15,46,61,Nonel,Radial Discrete,"""Rook"" plug injector",5mm,2 counter-rotating pairs,
+120,,,300,C2H4,O2,500,700,200,No colour 8,Blue 7,46,155,201,LE,Radial Discrete,"""Rook"" plug injector",5mm,4 counter-rotating pairs,
+121,,,300,C2H4,O2,500,700,200,No colour 8,Blue 7,46,155,201,LE,Radial Discrete,Offset injector,5mm,No data recorded,Trigger error
+122,,,300,C2H4,O2,500,700,200,No colour 8,Blue 7,46,155,201,LE,Radial Discrete,Offset injector,5mm,3 counter-rotating pairs,
+123,2023-05-25,14:14:44,300,C2H4,O2,500,700,200,No colour 8,Blue 7,46,155,201,LE,Radial Discrete,Offset injector,5mm,No information entered by user,No information entered by user
+124,2023-05-25,14:15:38,300,C2H4,O2,500,700,200,No colour 8,Blue 7,46,155,201,LE,Radial Discrete,Offset injector,5mm,No information entered by user,Chamber burnout. Oxygen flex destroyed. Likely occurred during a previous test.
+125,2023-07-26,15:10:42,300,C2H4,O2,500,700,200,No colour 8,Blue 7,46,155,201,LE,Radial Discrete,Offset injector,5mm,Unknown. High Speed camera error.,Accidental demonstration of thrust. Broken welds on sandworm. Likely engine hard start.
+126,2023-08-04,12:33:43,300,C2H4,O2,500,800,200,No colour 8,Blue 6,46,155,201,LE,Radial Discrete,Offset injector,5mm,2 waves,None
+127,2023-08-04,12:37:40,300,C2H4,O2,500,800,200,No colour 8,Blue 6,46,155,201,LE,Radial Discrete,Offset injector,5mm,No information entered by user,Window was very blurry. Need to clean
+128,2023-08-04,12:52:17,300,C2H4,O2,500,800,200,No colour 8,Blue 6,46,155,201,LE,Radial Discrete,Offset injector,5mm,Unknown,All black. Change light settings
+129,2023-08-04,14:19:59,300,C2H4,O2,500,800,200,No colour 8,Blue 6,46,155,201,LE,Radial Discrete,Offset injector,5mm,No information entered by user,No information entered by user
+130,2023-08-04,14:20:14,300,C2H4,O2,500,800,200,No colour 8,Blue 6,46,155,201,LE,Radial Discrete,Offset injector,5mm,No information entered by user,No information entered by user
+131,2023-08-04,14:21:34,300,C2H4,O2,500,800,200,No colour 8,Blue 6,46,155,201,LE,Radial Discrete,Offset injector,5mm,"2 wave, 2 clapping pairs",No information entered by user
+132,2023-08-04,15:47:05,300,C2H4,O2,800,800,300,red 2,Blue 6,46,155,201,LE,Radial Discrete,Offset injector,5mm,N/A,Sandworm go boom. Paul Atreides inconsolable.
+133,2023-08-05,16:47:05,301,C2H4,O2,250,300,60,-9,Red 0,14,46,60,LE,Radial Discrete,Offset injector,5mm,2 waves,We're back
+134,2024-10-21,16:00:24,294,C2H4,O2,300,400,75,-9,Red 0,17,58,75,LE,Radial Discrete,Offset injector,5mm,No information entered by user,Transitioned to possible clapping mode
+135,2024-10-21,16:50:30,294,C2H4,O2,400,800,100,-9,Red 0,23,77,100.0,LE,Radial Discrete,Offset injector,5mm,No camera data,N/A
+136,2024-10-21,16:52:32,294,C2H4,O2,400,800,100,-9,Red 0,23,77,100.0,LE,Radial Discrete,Offset injector,5mm,2 waves,No information entered by user
+137,2024-10-21,17:12:19,294,C2H4,O2,400,800,150,-4,red 1,34,116,150.0,LE,Radial Discrete,Offset injector,5mm,2 waves,very stable
